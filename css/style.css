@@ -2,16 +2,20 @@
 
 *{
     box-sizing: border-box;
-    margin: 5%;
+    margin: 0;
     font-family: 'Fredoka', sans-serif;
+}
+
+body{
     background-color: bisque;
 }
 
 /* impostazione header */
 
-.container{
+.headercontainer{
     color: rgb(192, 7, 99);
     text-align: center;
+    margin: 5%;
 }
 
 p{
@@ -20,27 +24,33 @@ p{
 
 main{
     margin-top: 10%;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
-.row1::after{
+.row::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.row1{
-    height: 30%;
+.row{
+    height: auto;
+    width: auto;
 }
 
-.MarcoVapeNation{
-    background-color: black;
- 
-}
-
-img{
+.card{
     float: left;
-    object-fit: cover;
-    max-width: 15%;
+    background-color: black;
+    width: calc(100%/3);
+    height: 100px;
+}
+
+.foto{
+    float: left;
+    width: 100px;
+    height: 100px;
     margin: 0;
 }
 
@@ -48,14 +58,18 @@ img{
     float: left;
     text-align: left;
     margin: 0;
-    color: white;
 }
 
 .name{
     font-weight: bold;
-    
+    color: white;
 }
 
 .role{
+    color: white;
 
+}
+
+.mail{
+    color: rgb(0, 110, 253);
 }
