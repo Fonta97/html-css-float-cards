@@ -15,7 +15,7 @@ body{
 .headercontainer{
     color: rgb(192, 7, 99);
     text-align: center;
-    margin: 5%;
+    margin: 2%;
 }
 
 p{
@@ -23,7 +23,7 @@ p{
 }
 
 main{
-    margin-top: 10%;
+    margin-top: 3%;
     text-align: center;
     max-width: 80%;
     margin: 0 auto;
@@ -40,13 +40,17 @@ main{
     width: auto;
 }
 
+/* .card,.foto,.details,.name,.role,.mail{ */
+/* position: relative; */
+
+
 .card{
     margin: 10px;
     float: left;
     background-color: black;
     width: calc(100%/3 - 20px);
-    min-width: fit-content;
     height: 100px;
+    box-shadow: 0px 0px 1px 1px black;
 }
 
 .foto{
@@ -59,19 +63,22 @@ main{
 .details{
     float: left;
     text-align: left;
-    margin: 0;
+    margin-left: 10px;
+    padding: 5%;
 }
 
 .name{
     font-weight: bold;
     color: white;
+    font-size: 20px;
 }
 
 .role{
     color: white;
-
+    
 }
 
 .mail{
     color: rgb(0, 110, 253);
+    text-decoration: none;
 }
