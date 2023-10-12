@@ -1,0 +1,61 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 5%;
+    font-family: 'Fredoka', sans-serif;
+    background-color: bisque;
+}
+
+/* impostazione header */
+
+.container{
+    color: rgb(192, 7, 99);
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+
+main{
+    margin-top: 10%;
+}
+
+.row1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row1{
+    height: 30%;
+}
+
+.MarcoVapeNation{
+    background-color: black;
+ 
+}
+
+img{
+    float: left;
+    object-fit: cover;
+    max-width: 15%;
+    margin: 0;
+}
+
+#details{
+    float: left;
+    text-align: left;
+    margin: 0;
+    color: white;
+}
+
+.name{
+    font-weight: bold;
+    
+}
+
+.role{
+
+}
