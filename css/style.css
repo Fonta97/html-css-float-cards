@@ -51,7 +51,7 @@ main{
     float: left;
     background-color: black;
     min-width: calc(100%/3 -20px);
-    box-shadow: 0px 0px 1px 1px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     word-wrap: break-word;
 }
 
